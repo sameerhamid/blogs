@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: rgba(31, 28, 28, 0.856);
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 1px solid #e1ece4;
+}
+
+.navbar h1 {
+  color: rgba(231, 13, 13, 0.705);
+}
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: rgba(231, 13, 13, 0.705);
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog preview list  */
+
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+
+.blog-preview:hover {
+  box-shadow: 4px 6px 9px rgba(0, 0, 0, 0.1);
+}
+.blog-preview h1 {
+  font-size: 20px;
+  color: rgba(231, 13, 13, 0.705);
+  margin-bottom: 8px;
+}
+.blog-preview a {
+  text-decoration: none;
+}
+
+.blog-details h2 {
+  font-size: 20px;
+  color: rgba(231, 13, 13, 0.705);
+  margin-bottom: 10px;
+}
+
+.blog-details div {
+  margin: 20px 0;
+}
+
+.blog-details button {
+  padding: 10px;
+  font-weight: bold;
+  background-color: rgba(231, 13, 13, 0.705);
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/*---create new blog----*/
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create h1 {
+  font-size: 20px;
+  color: rgba(231, 13, 13, 0.705);
+  margin-bottom: 30px;
+}
+
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid wheat;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button {
+  padding: 10px;
+  font-weight: bold;
+  background-color: rgba(231, 13, 13, 0.705);
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.not-found-links {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.not-found,
+.not-found-links a {
+  text-decoration: none;
+  font-weight: bold;
+}
